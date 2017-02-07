@@ -22,6 +22,7 @@
             android:layout_height="50dp"
             android:layout_margin="15dp"
             android:scaleType="centerCrop"
+            android:scaleX="@{string.langType ? -1f : 1f}"
             app:image="@{stu.imageUrl}"/>
 
         <LinearLayout
